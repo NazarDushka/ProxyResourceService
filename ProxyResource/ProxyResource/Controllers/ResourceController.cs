@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 using ProxyResource.Models;
 using ProxyResource.Interfaces;
+using Serilog;
 
 namespace ProxyResource.Controllers
 {
@@ -21,13 +22,15 @@ namespace ProxyResource.Controllers
 
             [HttpGet("{id}")]
         public async Task<IActionResult> GetUser(int id)
-        {          
+        {
+            Log.Information($"Got request for Resource{id}");
             var user = await _resouceService.GetResourceById(id);
             if (user == null)
             {
+                Log.Information($"Resource{id} didn't find");
                 return NotFound($"Resource with id {id} not found.");
             }
-
+            Log.Information($"Returning Resource{id}");
             return Ok(user);
         }
     }

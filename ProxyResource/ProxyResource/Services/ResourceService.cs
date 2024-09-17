@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 using ProxyResource.Models;
 using ProxyResource.Interfaces;
+using Serilog;
 
 namespace ProxyResource.Services
 {
@@ -23,6 +24,7 @@ namespace ProxyResource.Services
             // Перевіряємо, чи є ресурс в кеші
             if (_resourceCache.ContainsKey(id))
             {
+                Log.Information($"Resource{id} was found in cache");
                 return _resourceCache[id];
             }
 
@@ -30,6 +32,7 @@ namespace ProxyResource.Services
             var response = await _httpClient.GetAsync($"https://reqres.in/api/unknown/{id}");
             if (!response.IsSuccessStatusCode)
             {
+                Log.Information($"Resource{id} wasn't found in API");
                 return null;
             }
 
@@ -37,8 +40,9 @@ namespace ProxyResource.Services
             var Response = JsonSerializer.Deserialize<ReqresResourceResponse>(responseContent, new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
 
             // Додаємо ресурс в кеш
+            Log.Information($"Resource{id} is adding in cache");
             _resourceCache[id] = Response.Data;
-
+           
             return Response.Data;
         }
     }
