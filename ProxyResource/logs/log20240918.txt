@@ -1,0 +1,41 @@
+2024-09-18 19:42:30.286 +03:00 [INF] Starting web host
+2024-09-18 19:42:39.095 +03:00 [INF] Got request for Resource2
+2024-09-18 19:42:39.346 +03:00 [INF] Resource2 is adding in cache
+2024-09-18 19:42:39.347 +03:00 [INF] Returning Resource2
+2024-09-18 19:44:22.411 +03:00 [INF] Starting web host
+2024-09-18 19:44:30.064 +03:00 [INF] Got request for Resource2
+2024-09-18 19:44:30.434 +03:00 [INF] Resource2 is adding in cache
+2024-09-18 19:44:30.435 +03:00 [INF] Returning Resource2
+2024-09-18 19:46:22.025 +03:00 [INF] Starting web host
+2024-09-18 19:50:49.413 +03:00 [INF] Starting web host
+2024-09-18 19:55:24.130 +03:00 [INF] Starting web host
+2024-09-18 19:57:23.252 +03:00 [INF] Starting web host
+2024-09-18 19:59:41.251 +03:00 [INF] Starting web host
+2024-09-18 20:52:25.888 +03:00 [INF] Starting web host
+2024-09-18 21:00:01.768 +03:00 [INF] Starting web host
+2024-09-18 21:00:45.596 +03:00 [INF] Token created
+2024-09-18 21:02:02.918 +03:00 [INF] Starting web host
+2024-09-18 21:04:32.965 +03:00 [INF] Starting web host
+2024-09-18 21:04:41.907 +03:00 [INF] Token created
+2024-09-18 21:05:22.366 +03:00 [INF] Got request for Resource1
+2024-09-18 21:05:22.757 +03:00 [INF] Resource1 is adding in cache
+2024-09-18 21:05:22.758 +03:00 [INF] Returning Resource1
+2024-09-18 21:43:42.409 +03:00 [INF] Starting web host
+2024-09-18 21:43:52.676 +03:00 [INF] Token created
+2024-09-18 21:44:14.510 +03:00 [INF] Got request for Resource1
+2024-09-18 21:44:14.762 +03:00 [INF] Resource1 is adding in cache
+2024-09-18 21:44:14.763 +03:00 [INF] Returning Resource1
+2024-09-18 21:46:35.590 +03:00 [INF] Starting web host
+2024-09-18 21:46:49.828 +03:00 [INF] Token created
+2024-09-18 22:09:45.514 +03:00 [INF] Starting web host
+2024-09-18 22:09:46.502 +03:00 [INF] Missing Full-Header.
+2024-09-18 22:09:46.844 +03:00 [INF] Missing Full-Header.
+2024-09-18 22:10:00.724 +03:00 [INF] Missing Full-Header.
+2024-09-18 22:10:00.746 +03:00 [INF] Token created
+2024-09-18 22:10:18.075 +03:00 [INF] Missing Full-Header.
+2024-09-18 22:10:18.123 +03:00 [INF] Got request for Resource 1
+2024-09-18 22:10:18.395 +03:00 [INF] Resource1 is adding in cache
+2024-09-18 22:10:18.396 +03:00 [INF] Returning Resource 1
+2024-09-18 22:10:35.979 +03:00 [INF] Got request for Resource 1
+2024-09-18 22:10:35.980 +03:00 [INF] Resource1 was found in cache
+2024-09-18 22:10:35.981 +03:00 [INF] Returning Resource 1
