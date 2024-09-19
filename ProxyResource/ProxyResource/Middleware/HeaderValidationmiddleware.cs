@@ -26,6 +26,7 @@ public class HeaderValidationMiddleware
         else
         {
             // Заголовок присутствует
+            Log.Information("Full-Header found.");
             context.Items["FullHeaderPresent"] = true;
         }
 

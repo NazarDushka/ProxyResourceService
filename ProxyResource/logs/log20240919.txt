@@ -1,0 +1,15 @@
+2024-09-19 10:29:01.051 +03:00 [INF] Starting web host
+2024-09-19 10:29:02.596 +03:00 [INF] Missing Full-Header.
+2024-09-19 10:29:03.702 +03:00 [INF] Missing Full-Header.
+2024-09-19 10:29:27.549 +03:00 [INF] Missing Full-Header.
+2024-09-19 10:29:27.659 +03:00 [INF] Token created
+2024-09-19 10:30:19.101 +03:00 [INF] Got request for Resource 1
+2024-09-19 10:30:19.492 +03:00 [INF] Resource1 is adding in cache
+2024-09-19 10:30:19.493 +03:00 [INF] Returning Resource 1
+2024-09-19 10:30:31.247 +03:00 [INF] Got request for Resource 1
+2024-09-19 10:30:31.247 +03:00 [INF] Resource1 was found in cache
+2024-09-19 10:30:31.248 +03:00 [INF] Returning Resource 1
+2024-09-19 10:30:39.710 +03:00 [INF] Missing Full-Header.
+2024-09-19 10:30:39.712 +03:00 [INF] Got request for Resource 1
+2024-09-19 10:30:39.712 +03:00 [INF] Resource1 was found in cache
+2024-09-19 10:30:39.713 +03:00 [INF] Returning Resource 1
